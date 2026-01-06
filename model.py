@@ -1,5 +1,7 @@
 import torch
 from torch import nn
+import numpy 
+
 
 
 class S_1_cnn(nn.Module):
