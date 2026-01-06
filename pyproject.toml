@@ -62,3 +62,6 @@ lint.select = ["I"]
 
 [tool.coverage.run]
 omit = ["tests/*"]
+
+[project.scripts]
+train = "ml_ops_dtu.train:main"
