@@ -2,8 +2,6 @@ import torch
 from torch import nn
 
 
-
-
 class S_1_cnn(nn.Module):
     """My awesome model."""
 
