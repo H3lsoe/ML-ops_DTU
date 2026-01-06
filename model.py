@@ -1,6 +1,8 @@
 import torch
 from torch import nn
 # der skal ikke være noget her
+import numpy 
+
 
 
 class S_1_cnn(nn.Module):
