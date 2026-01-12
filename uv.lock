@@ -1702,9 +1702,11 @@ name = "ml-ops-dtu"
 version = "0.0.1"
 source = { editable = "." }
 dependencies = [
+    { name = "click" },
     { name = "dvc" },
     { name = "dvc-gdrive" },
     { name = "fastapi" },
+    { name = "hydra-core" },
     { name = "matplotlib" },
     { name = "numpy" },
     { name = "scikit-learn" },
@@ -1729,9 +1731,11 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "click", specifier = ">=8.3.1" },
     { name = "dvc", specifier = ">=3.65.0" },
     { name = "dvc-gdrive", specifier = ">=3.0.1" },
     { name = "fastapi", specifier = "==0.115.6" },
+    { name = "hydra-core", specifier = ">=1.3.2" },
     { name = "matplotlib", specifier = ">=3.10.8" },
     { name = "numpy", specifier = ">=2.4.0" },
     { name = "scikit-learn", specifier = ">=1.8.0" },

@@ -48,5 +48,8 @@ def train(lr: float = 1e-3, batch_size: int = 32, epochs: int = 10) -> None:
     fig.savefig("reports/figures/training_statistics.png")
 
 
+def main():
+    typer.run(train)
+
 if __name__ == "__main__":
     typer.run(train)
